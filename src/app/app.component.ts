@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-video-series';
+  itemImageUrl: string = 'https://i.ytimg.com/vi/ytqF0N3nWj4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAXwExHWS-weZp_JANFykNmjgpuXQ';
+  isUnchanged: boolean = true;
 }
