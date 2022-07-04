@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-video-series';
+
+  showText = false;
+
+  toggleText(event: any): void {
+    this.showText = !this.showText;
+    console.log(event);
+  }
 }
