@@ -18,4 +18,6 @@
 <div [hidden]='!submitted'>
   <h2>You submitted!</h2>
   <p>Name: {{model.name}}</p>
+  <p>specie: {{model.specie}}</p>
+  <button (click)='submitted = false'>Edit</button>
 </div>
